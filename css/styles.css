@@ -7840,8 +7840,8 @@ textarea.form-control-lg {
 .bg-light {
   --bs-bg-opacity: 1;
   
-  background: rgb(245,222,179);
-  background: linear-gradient(0deg, rgba(245,222,179,1) 0%, rgba(255,255,255,1) 100%);
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(245,222,179,0.5872724089635855) 40%, rgba(245,222,179,0) 90%);
 }
 
 .bg-dark {
@@ -11416,6 +11416,22 @@ header.masthead {
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(245,222,179,1) 99%);
 }
+
+.img-circular {
+  max-width: 300px;
+  max-height: 45vh;
+  background-image: url(https://drive.google.com/thumbnail?id=1U5hDPKPpo66XJYxpV1K0ofjz1I63AOt_);
+  background-size: cover;
+  display: block;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 2.5vh;
+  justify-content: center;
+}
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -11470,6 +11486,7 @@ header.masthead .masthead-heading {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
   border-radius: 3rem;
+  box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.2);
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
@@ -11720,13 +11737,11 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(245,222,179,0.5872724089635855) 40%, rgba(245,222,179,0) 90%);
 }
 section#contact .section-heading {
-  color: #fff;
+  color: #000000;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
