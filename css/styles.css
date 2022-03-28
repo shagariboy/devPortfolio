@@ -11417,7 +11417,7 @@ header.masthead {
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(245,222,179,1) 99%);
 }
 
-.img-circular {
+header.masthead .img-circular {
   max-width: 300px;
   max-height: 45vh;
   background-image: url(https://drive.google.com/thumbnail?id=1U5hDPKPpo66XJYxpV1K0ofjz1I63AOt_);
@@ -11427,9 +11427,8 @@ header.masthead {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   text-align: center;
-  margin-left: 40%;
-  margin-top: 2.5vh;
-  justify-content: center;
+  margin: auto;
+  
 }
 
 header.masthead .masthead-subheading {
