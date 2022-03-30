@@ -3510,6 +3510,7 @@ textarea.form-control-lg {
   display: none;
 }
 
+
 .collapsing {
   height: 0;
   overflow: hidden;
@@ -3805,7 +3806,7 @@ textarea.form-control-lg {
 .dropdown-item-text {
   display: block;
   padding: 0.25rem 1rem;
-  color: #212529;
+  color: white;
 }
 
 .dropdown-menu-dark {
@@ -3834,7 +3835,7 @@ textarea.form-control-lg {
   color: #dee2e6;
 }
 .dropdown-menu-dark .dropdown-header {
-  color: #adb5bd;
+  color: white;
 }
 
 .btn-group,
@@ -3983,7 +3984,7 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #818d99;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4037,6 +4038,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  color: white;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4082,6 +4084,7 @@ textarea.form-control-lg {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+  color: white;
 }
 
 .navbar-toggler {
@@ -4143,6 +4146,7 @@ textarea.form-control-lg {
   .navbar-expand-sm .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    
   }
   .navbar-expand-sm .navbar-toggler {
     display: none;
@@ -7490,6 +7494,7 @@ textarea.form-control-lg {
 .py-4 {
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
+  
 }
 
 .py-5 {
@@ -11366,7 +11371,7 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Libre Baskerville", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #fff;
+  color: lightseagreen;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -11386,7 +11391,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 5rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11399,7 +11404,7 @@ p {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 3.5rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
