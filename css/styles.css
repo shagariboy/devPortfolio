@@ -379,10 +379,10 @@ button,
 [type=submit] {
   -webkit-appearance: button;
 }
-button:not(:disabled),
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled) {
+button:not(:enabled),
+[type=button]:not(:enabled),
+[type=reset]:not(:enabled),
+[type=submit]:not(:enabled) {
   cursor: pointer;
 }
 
@@ -3030,6 +3030,15 @@ textarea.form-control-lg {
   opacity: 0.65;
 }
 
+.btn-block {
+  color: #fff;
+  background-color: #ffc800;
+  border-color: #ffc800;
+  width: fit-content;
+  height: fit-content;
+  max-width: 100%;
+  max-height: 50px;
+}
 .btn-primary {
   color: #fff;
   background-color: #ffc800;
@@ -11335,6 +11344,12 @@ p {
   font-size: 1.125rem;
   font-weight: 700;
 }
+.btn-xxl {
+  padding: 2.25rem 3.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 5.125rem;
+  font-weight: 700;
+}
 
 .btn-social {
   height: 2.5rem;
@@ -11433,6 +11448,7 @@ header.masthead .img-circular {
   -moz-border-radius: 50px;
   text-align: center;
   margin: auto;
+  margin-bottom: 10px;
   
 }
 
@@ -11469,10 +11485,17 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+.p1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
 #portfolio .portfolio-item {
-  max-width: 26rem;
+  max-width: 30rem;
   margin-left: auto;
   margin-right: auto;
+  max-height: 50rem;
+  text-align: center;
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
