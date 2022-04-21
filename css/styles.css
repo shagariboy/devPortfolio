@@ -7371,6 +7371,7 @@ textarea.form-control-lg {
 
 .fw-bolder {
   font-weight: bolder !important;
+  color: black;
 }
 
 .lh-1 {
