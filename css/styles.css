@@ -11419,6 +11419,10 @@ header.masthead .masthead-heading {
   margin-bottom: 3rem;
   text-align: center;
 }
+#stack-type {
+  text-align: center;
+  border: transparent;
+}
 .stacks-member img {
   width: 14rem;
   height: 14rem;
@@ -11429,9 +11433,45 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
+#stack-name {
+  font-family: Monaco;
+}
+
 .img-brand {
   height: 2.75rem;
 }
+
+.prev-btn,
+.next-btn {
+  color: var(--clr-primary-7);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: var(--clr-primary-5);
+}
+
+.random-btn {
+  margin-top: 0.5rem;
+  background: var(--clr-primary-10);
+  color: var(--clr-primary-5);
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  border-radius: 5px;
+  transition: var(--transition);
+  border-color: var(--clr-primary-5);
+  cursor: pointer;
+}
+.random-btn:hover {
+  background: var(--clr-primary-5);
+  color: var(--clr-primary-1);
+}
+
 
 section#contact {
   background: rgb(255,255,255);
