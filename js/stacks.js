@@ -3,31 +3,31 @@
 const stacks = [
     {
         id: 1,
-        img: '/Users/benutzer/Downloads/devPortfolio/devPortfolio/assets/img/stacks/icons8-html-5-480.png',
+        img: '/assets/img/stacks/icons8-html-5-480.png',
         text: 'HTML',
     },
     {
         id: 2,
-        img: '/Users/benutzer/Downloads/devPortfolio/devPortfolio/assets/img/stacks/icons8-css3-480.png',
+        img: '/assets/img/stacks/icons8-css3-480.png',
         text: 'CSS',
     },
     {
         id: 3,
-        img: '/Users/benutzer/Downloads/devPortfolio/devPortfolio/assets/img/stacks/icons8-wordpress-480.png',
+        img: '/assets/img/stacks/icons8-wordpress-480.png',
         text: 'WORDPRESS',
     },{
         id: 4,
-        img: '/Users/benutzer/Downloads/devPortfolio/devPortfolio/assets/img/stacks/icons8-react-480.png',
+        img: '/assets/img/stacks/icons8-react-480.png',
         text: 'REACT',
     },
     {
         id: 5,
-        img: '/Users/benutzer/Downloads/devPortfolio/devPortfolio/assets/img/stacks/icons8-python-1480.png',
+        img: '/assets/img/stacks/icons8-python-1480.png',
         text: 'PYTHON',
     },
     {
         id: 6,
-        img: '/Users/benutzer/Downloads/devPortfolio/devPortfolio/assets/img/stacks/icons8-javascript-480.png',
+        img: '/assets/img/stacks/icons8-javascript-480.png',
         text: 'JAVASCRIPT',
     },
 
